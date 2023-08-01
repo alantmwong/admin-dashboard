@@ -1,2 +1,11 @@
+.searchbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    outline: 2px;
+    outline-color: red;
+    outline-style: solid;
+}
+
 
 
