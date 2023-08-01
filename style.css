@@ -23,8 +23,6 @@
     grid-column: 2;
 }
 
-
-
 .sidebar{
     grid-column: 1;
     grid-row: 1 / 4;
