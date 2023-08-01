@@ -1,4 +1,4 @@
-.sidebar, .content{
+.sidebar, .middle{
     outline: 2px;
     outline-color: red;
     outline-style: solid;
@@ -24,8 +24,12 @@
 }
 
 .sidebar{
+    display: grid;
+    grid-template-rows: 3fr 5fr 3fr;
+    
     grid-column: 1;
     grid-row: 1 / 4;
+
 }
 
 .content{
