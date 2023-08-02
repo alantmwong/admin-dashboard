@@ -1,4 +1,4 @@
-.announcements, .announcement-card{
+.trending, .trending-card{
     outline: 2px;
     outline-color: red;
     outline-style: solid;
@@ -93,4 +93,19 @@
 .trending{
     grid-column: 3;
     grid-row: 2;
+}
+
+.trending-card{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-pic{
+    grid-row: 1 / 2;
+}
+
+.headline{
+    grid-row: 2;
+    grid-column: 2;
 }
