@@ -1,4 +1,4 @@
-.project-header, .projects, .card{
+.announcements, .announcement-card{
     outline: 2px;
     outline-color: red;
     outline-style: solid;
@@ -79,11 +79,14 @@
 /* Announcements section*/
 
 .announcements{
+    display: grid;
     grid-row: 1;
     grid-column: 3;
 }
 
-
+.announcement-card{
+    grid-column: 1;
+}
 
 /* Trending section*/
 
