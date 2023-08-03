@@ -1,4 +1,8 @@
-.trending, .trending-card{
+body{
+    margin: 0;
+}
+
+.searchbar{
     outline: 2px;
     outline-color: red;
     outline-style: solid;
@@ -9,7 +13,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr 4fr;
+    grid-template-rows: 50px 50px 2fr;
 }
 
 /* Search bar styling */
@@ -38,6 +42,7 @@
     grid-template-rows: 3fr 5fr 3fr;
     grid-column: 1;
     grid-row: 1 / 4;
+    background-color: #10b981;
 
 }
 
@@ -54,6 +59,7 @@
     grid-template-rows: min-content auto;
     grid-column: 2;
     grid-row: 3;
+    background-color: #e5e5e5;
 }
 
 /* Projects section*/
