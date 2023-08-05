@@ -3,7 +3,7 @@ body{
     
 }
 
-.sidebar, .content{
+.projects .card, .projects .stripe, .projects p{
     outline: 2px;
     outline-color: red;
     outline-style: solid;
@@ -88,10 +88,15 @@ body{
 }
 
 .projects .card{
+    display: grid;
     grid-row: auto;
     background-color: white;
     border-radius: 25px;
     padding: 10%
+}
+
+.stripe{
+
 }
 
 /* Announcements section*/
