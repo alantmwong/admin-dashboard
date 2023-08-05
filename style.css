@@ -90,6 +90,8 @@ body{
 .projects .card{
     grid-row: auto;
     background-color: white;
+    border-radius: 25px;
+    padding: 10%
 }
 
 /* Announcements section*/
