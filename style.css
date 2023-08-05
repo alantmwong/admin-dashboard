@@ -49,6 +49,7 @@ body{
     grid-column: 1;
     grid-row: 1 / 4;
     background-color: #10b981;
+    height: 100vh;
 
 }
 
@@ -89,14 +90,17 @@ body{
 
 .projects .card{
     display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 1fr 2fr 2fr;
     grid-row: auto;
     background-color: white;
     border-radius: 25px;
-    padding: 10%
+    padding: 10%;
 }
 
 .stripe{
-
+    grid-column: 1;
+    grid-row: 1 / 4;
 }
 
 /* Announcements section*/
