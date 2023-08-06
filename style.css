@@ -98,7 +98,7 @@ body{
     padding: 10%;
 }
 
-.stripe{
+.card .stripe{
     grid-column: 1;
     grid-row: 1 / 4;
 }
