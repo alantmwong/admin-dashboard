@@ -68,7 +68,10 @@ body{
     grid-row: 1;
 }
 
-.middle{
+.middle, .lower{
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
