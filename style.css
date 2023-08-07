@@ -3,7 +3,7 @@ body{
     
 }
 
-.projects .card, .projects .stripe, .projects p{
+.sidebar, .upper{
     outline: 2px;
     outline-color: red;
     outline-style: solid;
@@ -51,6 +51,21 @@ body{
     background-color: #10b981;
     height: 100vh;
 
+}
+
+.upper{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.upper h1{
+    grid-row: 1;
+}
+
+.upper img{
+    grid-row: 1;
 }
 
 .middle{
